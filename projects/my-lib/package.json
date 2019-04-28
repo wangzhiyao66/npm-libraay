@@ -4,5 +4,20 @@
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.",
+  "main": "y",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangzhiyao66/npm-libraay.git"
+  },
+  "keywords": [
+    "wzy19951002"
+  ],
+  "author": "wangzhiyao66",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/wangzhiyao66/npm-libraay/issues"
+  },
+  "homepage": "https://github.com/wangzhiyao66/npm-libraay#readme"
 }
