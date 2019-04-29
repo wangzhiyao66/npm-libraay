@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/wangzhiyao66/npm-libraay/issues"
   },
-  "homepage": "https://github.com/wangzhiyao66/npm-libraay#readme"
+  "homepage": "https://github.com/wangzhiyao66/npm-libraay#readme",
+  "dependencies": {
+    "less": "^3.9.0",
+    "ng-zorro-antd": "^7.3.3"
+  }
 }

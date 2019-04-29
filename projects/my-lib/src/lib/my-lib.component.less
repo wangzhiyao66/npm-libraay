@@ -1,0 +1,55 @@
+
+.sider {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 0 4px rgba(0, 0, 0, 0.1);
+
+    i {
+        font-size: 20px;
+    }
+
+    .ant-layout-sider-trigger {
+        left: 0;
+    }
+
+    .menu-nav-title {
+        display: block;
+        font-size: 12px;
+    }
+
+    ::ng-deep {
+        .ant-menu{
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        .ant-menu-inline .ant-menu-item {
+            margin: 0;
+            padding-top: 11px;
+            padding-bottom: 11px;
+            height: auto;
+            line-height: 1.5;
+            text-align: center;
+            outline: none;
+        }
+    }
+    .hide {
+        display: none;
+    }
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+
+    img {
+        max-width: 100%;
+        height: 40px;
+        vertical-align: middle;
+    }
+}

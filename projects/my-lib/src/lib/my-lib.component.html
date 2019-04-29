@@ -1,0 +1,19 @@
+<div class="sider">
+    <nz-sider nzCollapsed [(nzCollapsed)]="isCollapsed">
+        <div class="sidebar">
+            <div class="logo">
+                <a [routerLink]="['/']">
+                    <img src="https://liuchenyu.oss-cn-beijing.aliyuncs.com/image_quanyecha/quanyecha.jpg" alt="logo" role="log">
+                </a>
+            </div>
+            <ul nz-menu [nzMode]="'inline'" [nzInlineIndent]="12">
+                <ng-container *ngFor="let item of menulist; let i=index;">
+                    <li nz-menu-item routerLinkActive="ant-menu-item-selected" [routerLink]="item?.link">
+                        <i  *ngIf='item?.icon' nz-icon nzType="item?.icon" nzTheme="twotone"></i>
+                        <span class="menu-nav-title">{{item?.title}}</span>
+                    </li>
+                </ng-container>
+            </ul>
+        </div>
+    </nz-sider>
+</div>
